@@ -9,15 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.4  # use the latest version
+        uses: actions/checkout@v4.1.1  # use the latest version
 
       - name: Setup Node.js environment 💻
-        uses: actions/setup-node@v2.4.3  # use the latest version
+        uses: actions/setup-node@v4.0.2  # use the latest version
         with:
           node-version: '14'
 
       - name: Cache dependencies 🗄️
-        uses: actions/cache@v2.1.6  # use the latest version
+        uses: actions/cache@v4.0.1  # use the latest version
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -31,9 +31,9 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.5  # use the latest version
+        uses: JamesIves/github-pages-deploy-action@4.5.0  # use the latest version
         with:
-          repository: AdAstraAbyssoque/repository.github.io 
+          repository: AdAstraAbyssoque/repository.github.io  # replace with your username and repository
           branch: main  # the branch where your site will be hosted, usually it's "main" for user.github.io repo
           folder: .vitepress/dist  # the folder where your site is stored
           clean: true  # automatically remove old files
