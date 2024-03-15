@@ -33,7 +33,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4  # use the latest version
         with:
-          repository-name: AdAstraAbyssoque/repository.github.io  # replace with your username and repository
+          repository-name: AdAstraAbyssoque/AdAstraAbyssoque.github.io  # replace with your username and repository
           branch: main  # the branch where your site will be hosted, usually it's "main" for user.github.io repo
           folder: docs/.vitepress/dist  # change ".vitepress/dist" to "docs/.vitepress/dist"
           clean: true  # automatically remove old files
