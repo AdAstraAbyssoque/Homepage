@@ -18,7 +18,8 @@ module.exports = {
       {
         text: 'Articles',
         children: [
-          '/articles/是乍见之欢， 也是天各一方.md',
+          '/articles/是乍见之欢， 也是天各一方.html',
+          '/articles/关于我.html',
         ],
       },
     ]
