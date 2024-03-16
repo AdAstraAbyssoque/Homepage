@@ -1,11 +1,11 @@
 module.exports = {
-    title: 'My Docs',
-    description: 'This is my documentation website',
+    title: 'AdAstraAbyssosque',
+    description: 'This is my own space to write about things I like and share them with the world.',
     base: '/',
     themeConfig: {
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Articles', link: '/articles/' },
+        { text: 'Articles', link: '/文章/' },
       ],
       sidebar: {
         '/articles/': getArticlesSidebar(),
@@ -18,8 +18,7 @@ module.exports = {
       {
         text: 'Articles',
         children: [
-          '/articles/tstarticle1.md',
-          '/articles/tstarticle2.md',
+          '/articles/是乍见之欢， 也是天各一方.md',
         ],
       },
     ]
