@@ -9,20 +9,10 @@ module.exports = {
     ],
     sidebar: {
       '/articles/': [
-        {
-          text: 'Articles',
-          children: [
-            {
-              text:'是乍见之欢， 也是天各一方',
-              link:'/articles/是乍见之欢， 也是天各一方.html',
-            },
-            {
-              text:'关于我',
-              link:'/articles/关于我.html',
-            }
+          {text:'文章', link: '/articles/',},
+          {text:'是乍见之欢， 也是天各一方',link:'/articles/是乍见之欢， 也是天各一方.html',},
+          {text:'关于我',link:'/articles/关于我.html',}
           ],
         },
-      ],
-    },
-  }
+  },
 }
