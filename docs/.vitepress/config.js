@@ -4,8 +4,8 @@ module.exports = {
     base: '/',
     themeConfig: {
       nav: [
-        { text: 'Home', link: '/' },
-        { text: 'Articles', link: '/文章/' },
+        { text: '主页', link: '/' },
+        { text: '文章', link: '/articles/' },
       ],
       sidebar: {
         '/articles/': getArticlesSidebar(),
