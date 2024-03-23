@@ -9,12 +9,12 @@ hero:
   actions:
     - theme: brand
       text: About us
-      link: /About_us
+      link: ./About_us
     - theme: alt
       text: iGem2024
-      link: /iGem2024
+      link: ./iGem2024
   image:
-    src: /public/images/logo.png
+    src: ./public/images/logo.png
     alt: VitePress
 
 features:
