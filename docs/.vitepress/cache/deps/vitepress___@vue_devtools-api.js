@@ -2392,7 +2392,8 @@ function initStateFactory() {
     tabs: [],
     commands: [],
     vitePluginDetected: false,
-    activeAppRecordId: null
+    activeAppRecordId: null,
+    highPerfModeEnabled: false
   };
 }
 var _a4;
@@ -2566,6 +2567,7 @@ function onDevToolsClientConnected(fn) {
     });
   });
 }
+init_esm_shims2();
 export {
   addCustomCommand,
   addCustomTab,

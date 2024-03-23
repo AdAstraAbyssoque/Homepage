@@ -1,23 +1,37 @@
-# AdAstraAbyssoque's Personal Page
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-Welcome to my personal page! I'm AdAstraAbyssoque, and this is where I share my learning journey, projects, and thoughts.
+hero:
+  name: "HKUST(GZ) IGEM"
+  text: "From Synthetic Biology to the World"
+  tagline: Join and Participate in Beautiful Biological World!
+  actions:
+    - theme: brand
+      text: About us
+      link: /About_us
+    - theme: alt
+      text: iGem2024
+      link: /iGem2024
+  image:
+    src: /public/images/logo.png
+    alt: VitePress
 
-## About Me
+features:
+  - icon: 🧪
+    title: Hands-on Research
+    details: Gain practical experience in synthetic biology through lab work and independent research projects. Design and construct novel genetic circuits to address real-world challenges.
 
-I'm a first-year student at the Hong Kong University of Science and Technology (Guangzhou) (HKUST(GZ)) I have a deep interest in fields like programming, artificial intelligence, machine learning, and data science. I enjoy exploring new technologies and tools and applying them to my studies and projects.
+  - icon: 🏆 
+    title: Compete Globally
+    details: Participate in the prestigious iGEM competition and showcase your work to an international audience of scientists, experts, and peers.
 
-## My Projects
+  - icon: 🌐
+    title: Interdisciplinary Collaboration  
+    details: Work alongside students from diverse backgrounds including biology, engineering, computer science, and more. Foster an interdisciplinary approach to problem-solving.
 
-Here, you can find my recent projects and the work I'm currently involved in. I hope these projects can inspire you or help you solve your own problems.
+  - icon: 🎓
+    title: Learn and Grow
+    details: Enhance your knowledge through workshops, seminars, and mentorship opportunities. Develop essential skills for a future career in synthetic biology or related fields.
+---
 
-## My Learning Journey
-
-As a student at the HKUST(GZ), I'm learning about computer science and related fields. I'm also actively seeking opportunities to apply what I've learned to practice, to enhance my skills and understanding.
-
-## Contact Me
-
-If you're interested in my work, or have any questions or suggestions, feel free to contact me via:
-
-- Email: [bliu699@outlook.com](mailto:bliu699@outlook.com)
-
-Thank you for visiting, and I look forward to interacting with you!
