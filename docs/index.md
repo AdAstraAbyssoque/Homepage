@@ -14,7 +14,7 @@ hero:
       text: iGem2024
       link: ./iGem2024
   image:
-    src: ./public/images/logo.png
+    src: ./images/logo.png
     alt: VitePress
 
 features:
