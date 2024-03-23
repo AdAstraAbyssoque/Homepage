@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: About us
-      link: /About_us
+      link: /About_US
     - theme: alt
       text: iGem2024
       link: /iGem2024
